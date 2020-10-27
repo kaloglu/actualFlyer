@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989606512237",
+    "firebase_url": "https://actualflyer.firebaseio.com",
+    "project_id": "actualflyer",
+    "storage_bucket": "actualflyer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989606512237:android:63c8aea32143ae71e82164",
+        "android_client_info": {
+          "package_name": "com.kaloglu.actualflayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989606512237-hm35f8hhman1nq8em7924vfns7shj79j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaloglu.actualflayer",
+            "certificate_hash": "33c0953391992634a56a86c83805c875c262b84d"
+          }
+        },
+        {
+          "client_id": "989606512237-7iemptoi7tke2jmiokdm4fi02nlrqtbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8bbNilW2-4wvoUpCCF0ksoSfmaOsU5bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989606512237-7iemptoi7tke2jmiokdm4fi02nlrqtbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
