@@ -1,4 +1,4 @@
-package com.kaloglu.actualflayer.presentation.auth
+package com.kaloglu.actualflyer.presentation.auth
 
 import android.app.Activity
 import android.content.Context
@@ -10,10 +10,9 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.fragment.app.viewModels
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
-import com.kaloglu.actualflayer.R
-import com.kaloglu.actualflayer.databinding.FragmentAuthenticationBinding
-import com.kaloglu.actualflayer.presentation.base.BaseFragment
-import com.kaloglu.actualflayer.util.observe
+import com.kaloglu.actualflyer.R
+import com.kaloglu.actualflyer.databinding.FragmentAuthenticationBinding
+import com.kaloglu.actualflyer.presentation.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 

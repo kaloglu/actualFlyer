@@ -1,7 +1,7 @@
-package com.kaloglu.actualflayer.domain.database
+package com.kaloglu.actualflyer.domain.database
 
-import com.kaloglu.actualflayer.domain.model.User
-import com.kaloglu.actualflayer.domain.model.Configuration
+import com.kaloglu.actualflyer.domain.model.User
+import com.kaloglu.actualflyer.domain.model.Configuration
 import kotlinx.coroutines.flow.Flow
 
 interface UserLocalDataSource {

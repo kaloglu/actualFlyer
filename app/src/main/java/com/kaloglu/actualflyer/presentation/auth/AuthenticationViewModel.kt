@@ -1,14 +1,13 @@
-package com.kaloglu.actualflayer.presentation.auth
+package com.kaloglu.actualflyer.presentation.auth
 
-import android.util.Log
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.viewModelScope
-import com.kaloglu.actualflayer.domain.LoginControlUseCase
-import com.kaloglu.actualflayer.presentation.base.BaseViewModel
-import com.kaloglu.actualflayer.util.SimpleEventEmitter
-import com.kaloglu.actualflayer.util.SimpleEventSource
-import com.kaloglu.actualflayer.util.onError
-import com.kaloglu.actualflayer.util.onSuccess
+import com.kaloglu.actualflyer.domain.LoginControlUseCase
+import com.kaloglu.actualflyer.presentation.base.BaseViewModel
+import com.kaloglu.actualflyer.util.SimpleEventEmitter
+import com.kaloglu.actualflyer.util.SimpleEventSource
+import com.kaloglu.actualflyer.util.onError
+import com.kaloglu.actualflyer.util.onSuccess
 import com.zhuinden.eventemitter.EventEmitter
 import com.zhuinden.eventemitter.EventSource
 import kotlinx.coroutines.launch

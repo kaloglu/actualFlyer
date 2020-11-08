@@ -1,8 +1,8 @@
-package com.kaloglu.actualflayer.presentation.base
+package com.kaloglu.actualflyer.presentation.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kaloglu.actualflayer.util.Result
+import com.kaloglu.actualflyer.util.Result
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Job

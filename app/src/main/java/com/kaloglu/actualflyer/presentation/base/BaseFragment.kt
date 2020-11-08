@@ -1,4 +1,4 @@
-package com.kaloglu.actualflayer.presentation.base
+package com.kaloglu.actualflyer.presentation.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.lifecycleScope
-import com.kaloglu.actualflayer.R
-import com.kaloglu.actualflayer.util.dataBinding
-import com.kaloglu.actualflayer.util.observe
+import com.kaloglu.actualflyer.R
+import com.kaloglu.actualflyer.util.dataBinding
+import com.kaloglu.actualflyer.util.observe
 import com.zhuinden.eventemitter.EventSource
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
