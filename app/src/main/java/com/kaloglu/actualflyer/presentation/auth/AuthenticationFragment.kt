@@ -8,12 +8,15 @@ import android.util.Log
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.fragment.app.viewModels
+import androidx.navigation.findNavController
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
+import com.google.android.material.snackbar.Snackbar
 import com.kaloglu.actualflyer.R
 import com.kaloglu.actualflyer.databinding.FragmentAuthenticationBinding
 import com.kaloglu.actualflyer.presentation.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 @AndroidEntryPoint
@@ -22,19 +25,19 @@ class AuthenticationFragment :
     override val viewModel: AuthenticationViewModel by viewModels()
 
     private val providers = arrayListOf(
-            AuthUI.IdpConfig.GoogleBuilder().build()
+        AuthUI.IdpConfig.GoogleBuilder().build()
     )
+
     private val firebaseSignInIntent = AuthUI.getInstance()
-            .createSignInIntentBuilder()
-            .setAvailableProviders(providers)
-            .build()
+        .createSignInIntentBuilder()
+        .setAvailableProviders(providers)
+        .build()
 
     private val loginContract = registerForActivityResult(LoginContract()) {
-        if (it){
-            Log.e("Fatih", "Auth True ")
+        if (it) {
             viewModel.fetchToken()
         }else{
-            Log.e("Fatih", "Auth False ")
+            Snackbar.make(requireView(), "An error accurred", Snackbar.LENGTH_LONG).show()
         }
     }
 
@@ -44,15 +47,15 @@ class AuthenticationFragment :
         initObservers()
     }
 
-    private fun initObservers()= with(viewModel) {
+    private fun initObservers() = with(viewModel) {
         eventNavigateMain.observe {
-            Log.e("Fatih Observe Navigate", "Navigated to mainpage")
+            val action = AuthenticationFragmentDirections.fromAuthFragmentToProductsFragment()
+            view?.findNavController()?.navigate(action)
         }
         eventError.observe {
-             Log.d("Fatih Observe Exception",it.toString())
+            Snackbar.make(requireView(), "An error accurred ${it.localizedMessage}", Snackbar.LENGTH_LONG).show()
         }
     }
-
 
     private fun initLoginCallbacks() {
         binding.buttonGoogleSignIn.setOnClickListener {

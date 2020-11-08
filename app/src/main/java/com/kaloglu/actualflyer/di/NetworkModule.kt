@@ -1,6 +1,6 @@
 package com.kaloglu.actualflyer.di
 
-import com.kaloglu.actualflyer.database.source.UserLocalDataSourceImpl
+import com.kaloglu.actualflyer.domain.database.UserLocalDataSourceImpl
 import com.kaloglu.actualflyer.domain.database.UserLocalDataSource
 import com.kaloglu.actualflyer.network.UserDataSource
 import com.kaloglu.actualflyer.network.UserDataSourceImpl

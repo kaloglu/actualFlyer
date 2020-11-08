@@ -1,9 +1,8 @@
-package com.kaloglu.actualflyer.database.source
+package com.kaloglu.actualflyer.domain.database
 
 import com.kaloglu.actualflyer.domain.model.User
 import com.kaloglu.actualflyer.database.KeyValueStorage
 import com.kaloglu.actualflyer.di.IoDispatcher
-import com.kaloglu.actualflyer.domain.database.UserLocalDataSource
 import com.kaloglu.actualflyer.domain.model.Configuration
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow

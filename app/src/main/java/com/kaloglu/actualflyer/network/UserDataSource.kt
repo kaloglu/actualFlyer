@@ -7,5 +7,5 @@ interface UserDataSource {
 
     fun getCurrentUser(): Result<FirebaseUser>
     suspend fun getCurrentUserIdToken(firebaseUser: FirebaseUser): Result<String>
-
+    suspend fun getIsAdminCurrentUser(email: String?): Result<Boolean>
 }

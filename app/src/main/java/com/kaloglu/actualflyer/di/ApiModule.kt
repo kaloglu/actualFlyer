@@ -26,7 +26,7 @@ object ApiModule {
 
     @Provides
     @Singleton
-    internal fun provideFireStore(): FirebaseFirestore = Firebase.firestore
+    internal fun provideFireStore(): FirebaseFirestore = FirebaseFirestore.getInstance()
 
     @Provides
     @Singleton

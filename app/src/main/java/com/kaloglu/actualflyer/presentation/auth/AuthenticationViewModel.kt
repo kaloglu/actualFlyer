@@ -2,7 +2,7 @@ package com.kaloglu.actualflyer.presentation.auth
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.viewModelScope
-import com.kaloglu.actualflyer.domain.LoginControlUseCase
+import com.kaloglu.actualflyer.domain.usecases.LoginControlUseCase
 import com.kaloglu.actualflyer.presentation.base.BaseViewModel
 import com.kaloglu.actualflyer.util.SimpleEventEmitter
 import com.kaloglu.actualflyer.util.SimpleEventSource
