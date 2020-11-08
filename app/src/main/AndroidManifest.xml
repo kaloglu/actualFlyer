@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kaloglu.actualflayer">
+    package="com.kaloglu.actualflyer">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".ActualFlayerApplication"
-        android:theme="@style/Theme.ActualFlayer">
-        <activity android:name=".presentation.MainActivity">
+        android:name="com.kaloglu.actualflyer.ActualFlyerApplication"
+        android:theme="@style/Theme.ActualFlyer">
+        <activity android:name="com.kaloglu.actualflyer.presentation.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,7 @@
             tools:node="merge">
 
             <meta-data
-                android:name="com.kaloglu.actualflayer.database.MmkvInitializer"
+                android:name="com.kaloglu.actualflyer.database.MmkvInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>

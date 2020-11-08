@@ -8,18 +8,34 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:989606512237:android:63c8aea32143ae71e82164",
+        "mobilesdk_app_id": "1:989606512237:android:c927a34f118c87bee82164",
         "android_client_info": {
-          "package_name": "com.kaloglu.actualflayer"
+          "package_name": "com.kaloglu.actualflyer"
         }
       },
       "oauth_client": [
         {
-          "client_id": "989606512237-hm35f8hhman1nq8em7924vfns7shj79j.apps.googleusercontent.com",
+          "client_id": "989606512237-e92oa2g4hg7d8vumdk3fgf88mgd4dvae.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.kaloglu.actualflayer",
+            "package_name": "com.kaloglu.actualflyer",
             "certificate_hash": "33c0953391992634a56a86c83805c875c262b84d"
+          }
+        },
+        {
+          "client_id": "989606512237-uhurbo21p12j9h12kd9r1v9sr57nlmfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaloglu.actualflyer",
+            "certificate_hash": "a4e783f6c254fabeec3cf5613504add34533c062"
+          }
+        },
+        {
+          "client_id": "989606512237-q4a9o0bgppetijqkeo1lftsqb243c69s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaloglu.actualflyer",
+            "certificate_hash": "74c34d0e2a672d99bcc8c8b9343a8c05ea2641ce"
           }
         },
         {

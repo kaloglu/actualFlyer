@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/authenticationFragment"
-        android:name="com.kaloglu.actualflayer.presentation.auth.AuthenticationFragment"
+        android:name="com.kaloglu.actualflyer.presentation.auth.AuthenticationFragment"
         android:label="AuthenticationFragment" />
 </navigation>
